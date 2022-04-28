@@ -1,0 +1,145 @@
+*{
+    margin: 0; /** Se establece un margen 0 para que los colores y diseños abarquen lo máximo de la pantalla **/
+    padding: 0; /** Se establece un padding 0 para que los elementos posteriormente puedan ser acomodados a necesidad **/
+    box-sizing: border-box; /** Se declara la visualización de los elementos **/
+    text-decoration: none; /** Se elimina cualquier decoración de texto   **/
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-stretch: ultra-condensed;
+}
+
+header {
+    position: relative; /** Su posición se define como fija, para que esta nunca cambie **/
+    text-align: center; /** Se centra el texto de la cabecera**/
+    width: 100%; /** De define que la longitud de la cabecera siempre será del 100% del ancho del dispositivo **/
+    padding: 15px; /** Se define el grosor del padding, para lograr que el texto se vea centrado **/
+    height: 60px; /** Se define la altura del encabezado, esto para lograr que sea más estético **/ 
+    background-color: #80221C; /** Se define el color de la cabecera **/
+    font-size: 30px;
+    font-style: normal;
+}
+
+nav{
+    position: relative; /** Su posición se define como fija, para que esta nunca cambie **/
+    text-align: center; /** Se centra el texto de la cabecera**/
+    width: 100%; /** Se define que la longitud de la cabecera siempre será del 100% del ancho del dispositivo **/
+    height: 64px; /**Se define la altura del nav, esto para lograr que sea más estético y aparente ser parte del encabezado**/ 
+    background-color: #80221C; /** Se define el color del nav (tiene que coincidir con el del encabezado para aparentar ser parte de este) **/
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    box-shadow: 0px 3px 3px black;
+
+    font-size: 17px;
+    font-style: normal;
+    padding: 15px;
+}
+
+nav a{
+    float: none;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 14px;
+    font-size: 17px;;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+nav a.active{
+    background-color: white;
+    color: black;
+}
+
+article{
+    padding-top: 35px; /** Se define el padding de la parte superior del contenedor de nav, para que el texto que contenga se vea relativamente centrado **/
+
+    width: 100%; /** Se establece el largo de article, en este caso es el restante de la barra nav **/
+
+    font-size: 26px;
+    text-align: center; /** Se establece la alineación del texto **/
+    background-color: #8B0000; /** Se define el color de article **/
+}
+
+button{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+
+    border-width: 0;
+    background-color: #EF4135;
+    color: white;
+    transition: all 0.3s ease-out
+}
+
+button:hover{
+    background-color: #215A9E;
+    transition: all 0.3s ease-out;
+}
+
+footer{
+    position: relative; /** Se define la posición como absoluta para que footer siempre se encuentre en la parte inferior de la página **/
+
+    height: 518.375px; /** Se establece la altura de el elemento **/
+    width: 100%; /** Se establece la anchura del elemento, en este caso un 100% para que siempre esté visible **/
+
+    text-align: center; /** Se centra el texto dentro del footer  **/
+    background-color: #80221C; /** Se establece el color de fondo del elemento **/
+
+    border-top-color:  white;
+    border-top-style:  solid;
+    border-top-width:  thick;
+
+    padding-top: 35px; /** Se define el padding de la parte superior del contenedor de nav, para que el texto que contenga se vea relativamente centrado **/
+    padding-bottom: 35px;
+
+    font-size: 30px;
+}
+
+div.center{
+    text-align: center;
+}
+
+div.frontEnd{
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: justify;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.media{
+    width: 15px;
+    height: 15px;
+}
+
+a{
+    float: none;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 14px;
+    font-size: 25px;
+}
+
+a b{
+    font-size: 21px;
+    color: #CCCCCC;
+}
+
+td.desc{
+    table-layout: fixed;
+    width: 190px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+pre{
+    text-align: justify;
+}
